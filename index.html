@@ -11,17 +11,31 @@
       img{
         max-width: 100%;
         vertical-align: top;
+        /*display: none;*/
+      }
+      img#r{
+        display: none;
+      }
+      @media screen and (max-width: 800px) {
+        img#r{
+          display: block;
+
+        }
+        img{
+          display: none;
+        }
+
       }
     </style>
     <title>invie</title>
   </head>
 
   <body>
-    <img src="header.jpg"  alt="">
-
-      <img src="hero.jpg"  alt="">
-      <img src="acustica.jpg" alt="">
-      <img src="clasica.jpg" alt="">
-
+    <img src="invie-responsive.png" id="r">
+    <img src="header.jpg" alt="">
+    <img src="hero.jpg">
+    <img src="acustica.jpg" alt="">
+    <img src="clasica.jpg" alt="">
+    <img src="footer.jpg" alt="">
   </body>
 </html>
